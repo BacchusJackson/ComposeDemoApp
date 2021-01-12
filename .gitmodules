@@ -1,0 +1,6 @@
+[submodule "testAppBackend"]
+	path = testAppBackend
+	url = https://github.com/BacchusJackson/testAppBackend.git
+[submodule "testAppFrontend"]
+	path = testAppFrontend
+	url = https://github.com/BacchusJackson/testAppFrontend.git

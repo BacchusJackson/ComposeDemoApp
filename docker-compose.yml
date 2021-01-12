@@ -1,0 +1,12 @@
+version: "3"
+services:
+  backend:
+    build: testAppBackend/.
+    ports:
+      - "3005:3005"
+  frontend:
+    build: testAppFrontend/.
+    ports:
+      - "8080:3000"
+    depends_on:
+      - backend
